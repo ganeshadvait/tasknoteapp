@@ -261,6 +261,8 @@ const data = {
 export function SidebarLeft({
   ...props
 }: React.ComponentProps<typeof Sidebar>) {
+
+  
   return (
     <Sidebar className="border-r-0" {...props}>
       <SidebarHeader>
